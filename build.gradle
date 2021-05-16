@@ -24,6 +24,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.5.15'
 
+    implementation group: 'com.vaadin', name: 'vaadin', version: '19.0.7'
+
     runtimeOnly 'mysql:mysql-connector-java'
 }
 
